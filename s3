@@ -1,0 +1,37 @@
+#print workinng ditrectory
+/workspaces/intro-unix-may-2025-online
+pwd
+#list
+ls
+# make directory 
+mkdir
+#change directory padre
+cd padre
+#muestra todo los directorios y archivos incliyendo los ocultos (los que empienza con punto)
+ls --all
+# me muevo al directorio que contiene al directorio actual 
+cd ..
+#mi directorio actuel es el .
+#opcion extendida y la opcion abreviada :
+ls --all
+#Muestra ayuda rápida y resumida
+ls --help 
+#Muestra el manual completo del comando
+man ls
+#ruta absoluta 
+/workspaces/intro-unix-may-2025-online/padre
+cd /
+cd workspaces/
+
+
+
+
+
+touch hijo
+touch HIJO
+mkdir PADRE
+HOLA="CHAO"
+#variable normal
+echo $HOLA
+#variable entorno
+echo $HOME
